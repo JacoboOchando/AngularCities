@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { City } from '../city';
 
 @Component({
   selector: 'app-ciudades',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ciudades.component.css']
 })
 export class CiudadesComponent implements OnInit {
-
+  @Input() public cities: Array<City> = []
   constructor() { }
 
   ngOnInit() {

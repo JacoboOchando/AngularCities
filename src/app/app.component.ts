@@ -14,7 +14,7 @@ export class AppComponent {
     this.cities.push ({
       name: city,
       temperature : {
-        valor: Math.random() * (20 - 0) + 0,
+        valor: Math.round(Math.random() * (20 - 1) + 1),
         tipo: 'ºC'
       },
       

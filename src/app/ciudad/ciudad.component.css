@@ -1,20 +1,30 @@
+.marco {
+  background-color: white;
+  height: 300px;
+  width: 700px;
+  border: 1px solid black;
+}
 .ciudad {
-    margin:10px;
-    background-color:lightblue;
-    color:black;
+  font-weight:700;  
+  margin-top: 10%;
+  margin-left: 15%;
+  height: 50%;
+  width: 50%;
+  background-color: salmon;
+  color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  justify-content: center;
 }
 .titulo {
-    font-size:2em;
-    background-color:salmon;
-    color:black;
+  font-size: 2em;
+  color: black;
 }
 .temp {
-    font-size: 2em;
-    background-color:salmon;
-    color:black;
+  font-size: 2em;
+  color: black;
 }
 .tipo {
-    font-size: 0,8em;
-    background-color:salmon;
-    color:black;
+  font-size: 0, 8em;
+  color: black;
 }
