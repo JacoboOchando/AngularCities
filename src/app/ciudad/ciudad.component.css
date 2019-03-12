@@ -1,0 +1,20 @@
+.ciudad {
+    margin:10px;
+    background-color:lightblue;
+    color:black;
+}
+.titulo {
+    font-size:2em;
+    background-color:salmon;
+    color:black;
+}
+.temp {
+    font-size: 2em;
+    background-color:salmon;
+    color:black;
+}
+.tipo {
+    font-size: 0,8em;
+    background-color:salmon;
+    color:black;
+}
